@@ -1,4 +1,4 @@
-Every folder are seperate projects on their own.
+Every folder are separate projects on their own.
 
 1. Quote Generator
  URL = https://youtu.be/5fb2aPlgoys?t=4312
@@ -6,11 +6,11 @@ Every folder are seperate projects on their own.
 2. Modal
  URL = https://youtu.be/5fb2aPlgoys?t=5379
 
-3. 
+3. Accordion
  URL = https://youtu.be/5fb2aPlgoys?t=6473
 
-4. 
+4. Stopwatch
  URL = https://youtu.be/5fb2aPlgoys?t=7245
 
-5. 
+5. Todos List
  URL = https://youtu.be/5fb2aPlgoys?t=8437

@@ -13,7 +13,7 @@ body{
     background-size: cover;
     text-align: center;
     min-width: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,19 +56,24 @@ body{
 }
 
 .text-area{
+    min-height: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
-
 .quote{
     font-size: 1.2rem;
     line-height: 1.4;
 }
 
 .author{
-    /* padding: 0.5rem; */
+    font-size: 1rem;
     color: red;
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.rem;
     text-align: center;
 }
 

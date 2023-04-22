@@ -1,13 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
     box-sizing: border-box;
 }
 
+
 body{
-    background-image: url(./assets/bg.jpg);
-    background-size: cover;
+
+    background: url(assets/bg.jpg) no-repeat center center/cover;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+#open-btn{
+    font-size: 2rem;
+    font-weight: 500;
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 1.5rem;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    padding: 2rem 4rem;
+}
+
+#open-btn:hover{
+    background: rgba(255, 255, 255, 0.562);
+    color: black;
+    transition: background-color 0.5s ease-in;
+}
+
+#open-btn:active{
+    background: rgba(70, 4, 222, 0.562);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease-out;
+}
+
+#container{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.562);
+    position:absolute;
+    border-radius: 1rem;
+    top: 53%;
+    left: 43%;
+
+}
+
+#wrapper{
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin:1rem;
+    padding: 0.5rem 1rem;
+}
+
+#close-btn{
+    border-radius: 50%;
+    height: 100%;
+}
+
+#wrapper:active{
+    border-radius: 1rem;
+    background-color: rgba(70, 4, 222, 0.562);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease-out;
 }

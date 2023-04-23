@@ -1,5 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+    color: rgb(35, 134, 137);
+}
+
+body{
+    background-image: url(assets/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion{
+    min-height: 20rem;
+    width: 40rem;
+    background-color: rgba(255, 255, 255, 0.871);
+    border-radius: 1rem;
+    padding: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: start; */
+    /* margin: 1rem; */
+}
+
+.accordion .accordion-title{
+    text-align: center;
+    color:rgb(13, 15, 70);
+    padding: 10px;
+}
+.accordion .content-container{
+    /* padding: 1rem; */
+    display: block;
+}
+
+.accordion .content-container .question{
+    padding-top: 0.7rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion .content-container .answer{
+    border-top: solid 1px rgb(132, 123, 123);
+    margin: 0.5px;
+    padding-top: 0.7rem;
+}
+
+
+.accordion .content-container .question::after{
+    content: '>';
+    background-color: rgba(35, 134, 137, 0.67);
+    border: solid 1px black;
+    border-radius: 50%;
+    text-align: center;
+    line-height:1;
+    margin : -5px;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    color: black;
+}
+
+.accordion .content-container .answer{
+    width: 100%;
+
+
+    /* TO HIDE THE CONTENT */
+
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.accordion .content-container.active .answer{
+    /* text-align: center; */
+    height: 120px;
+}
+
+.accordion .content-container.active .question{
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after{
+    content: 'v';
+    transition: 0.5s;
+}
+
+.answer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.answer ul li {
+    margin-right: 1rem;
+    font-size: 4rem;
+}
+
+.content-container .answer ul li .fa-brands{
+    font-size: 100%;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+.fa-instagram:hover{
+    color: #bc2a8d;
+}
+
+.fa-reddit:hover{
+    color: #ff4500;
+
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+}
+
+.fa-github:hover{
+    color: #171515;
+}
+
+.fa-discord:hover{
+    color: #5865F2;
 }

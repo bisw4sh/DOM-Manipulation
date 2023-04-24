@@ -5,3 +5,118 @@
     box-sizing: border-box;
     font-family: 'Signika', sans-serif;
 }
+
+body{
+ height: 100vh;
+ background: #12c2e97f;
+ background-image: url('assets/todos.svg') ;
+ background-position: 1125px 375px ;
+ background-size: 400px; 
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.container{
+    height: 20rem;
+    width: 40rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgb(89, 0, 255);
+    background-color: rgba(140, 173, 177, 0.742);
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-task-container{
+    padding: 4px;
+}
+
+#input-task{
+    margin-right: 1rem;
+    padding: 4px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    width: 20rem;
+}
+
+#input-task:focus{
+    outline: none;
+    box-shadow: 0px 3px 3px rgb(89, 0, 255);
+}
+
+#add-task{
+    padding: 4px;
+    border-radius: 4px;
+    border: none
+}
+
+#add-task:hover{
+    background-color:rgb(89, 0, 255);
+}
+
+#add-task:active{
+    background-color: rgb(0, 0, 0);
+}
+
+.add-task-container{
+display: flex;
+}
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .checkTask {
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.task .deleteTask {
+    color: red;
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+
+
+.task .deleteTask:hover {
+    background-color: red;
+    color: #fff;
+}

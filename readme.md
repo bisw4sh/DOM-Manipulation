@@ -16,4 +16,4 @@
  ```URL = https://youtu.be/5fb2aPlgoys?t=8437```
 
 6. Random Color Generator
-```https://youtu.be/EWv2jnhZErc?t=13119``` 
+```URL = https://youtu.be/EWv2jnhZErc?t=13119``` 

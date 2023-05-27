@@ -1,16 +1,19 @@
-Every folder are separate projects on their own.
+###Every folder are separate projects on their own.
 
 1. Quote Generator
- URL = https://youtu.be/5fb2aPlgoys?t=4312
+ ```URL = https://youtu.be/5fb2aPlgoys?t=4312```
 
 2. Modal
- URL = https://youtu.be/5fb2aPlgoys?t=5379
+ ```URL = https://youtu.be/5fb2aPlgoys?t=5379```
 
 3. Accordion
- URL = https://youtu.be/5fb2aPlgoys?t=6473
+ ```URL = https://youtu.be/5fb2aPlgoys?t=6473```
 
 4. Stopwatch
- URL = https://youtu.be/5fb2aPlgoys?t=7245
+ ```URL = https://youtu.be/5fb2aPlgoys?t=7245```
 
 5. Todos List
- URL = https://youtu.be/5fb2aPlgoys?t=8437
+ ```URL = https://youtu.be/5fb2aPlgoys?t=8437```
+
+6. Random Color Generator
+```https://youtu.be/EWv2jnhZErc?t=13119``` 

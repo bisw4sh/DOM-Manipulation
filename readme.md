@@ -1,34 +1,40 @@
 ###Every folder are separate projects on their own.
 
-1. Quote Generator
+01. Quote Generator
  ```URL = https://youtu.be/5fb2aPlgoys?t=4312```
 
-2. Modal
+02. Modal
  ```URL = https://youtu.be/5fb2aPlgoys?t=5379```
 
-3. Accordion
+03. Accordion
  ```URL = https://youtu.be/5fb2aPlgoys?t=6473```
 
-4. Stopwatch
+04. Stopwatch
  ```URL = https://youtu.be/5fb2aPlgoys?t=7245```
 
-5. Todos List
+05. Todos List
  ```URL = https://youtu.be/5fb2aPlgoys?t=8437```
 
-6. Random Color Generator
+06. Random Color Generator
 ```URL = https://youtu.be/EWv2jnhZErc?t=13119``` 
 
-7
-https://youtu.be/EWv2jnhZErc
+07. Sticky Navbar
+```URL = https://youtu.be/EWv2jnhZErc```
 
-8
-https://youtu.be/EWv2jnhZErc
+08. Blowing Bubbles
+```URL = https://youtu.be/EWv2jnhZErc```
 
-9
-https://youtu.be/EWv2jnhZErc
+09. Background Image Scroll Effect
+```URL = https://youtu.be/EWv2jnhZErc```
 
-10
-https://youtu.be/EWv2jnhZErc
+10. Drum Kits
+```URL = https://youtu.be/EWv2jnhZErc```
 
-11
-https://youtu.be/EWv2jnhZErc
+11. Image Carousel
+```URL = https://youtu.be/EWv2jnhZErc```
+
+12. Typography
+```URL = https://youtu.be/EWv2jnhZErc```
+
+13. Tabs Section
+```URL = https://youtu.be/EWv2jnhZErc```

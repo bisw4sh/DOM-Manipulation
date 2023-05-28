@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+  background: linear-gradient(to right, rgba(0, 255, 242, 0.567) , rgba(179, 0, 255, 0.425));
+  height: 100vh;
+  width: 100vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.crash, .kick, .snare, .tom{
+  width: 300px; /* Fixed width of the container */
+  height: 200px; /* Fixed height of the container */
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.image{
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  background-size: cover; /* Resizes the background image to cover the container */
+  background-position: 0px 0px; /* Centers the background image within the container */
+  border-radius: 10px;
+}
+
+.crash .image{
+  background-image: url('./images/crash.png'); /* Replace with the actual image path */
+}
+
+.kick .image{
+  background-image: url('./images/kick.png'); /* Replace with the actual image path */
+}
+
+.snare .image{
+  background-image: url('./images/snare.png'); /* Replace with the actual image path */
+}
+
+.tom .image{
+  background-image: url('./images/tom.png'); /* Replace with the actual image path */
+}
+
+
+h2{
+  display: block;
+  font-size: 100px;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.wrapper img{
+  height: 200px;
+  width: 200px;
+}
+
+.instrument span{
+  color: rgb(102, 98, 98);
+  filter: drop-shadow(1px 0px 1px rgba(39, 38, 38, 0.607));
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.instrument:active{
+  border: solid 3px purple;
+  background-color: purple;
+}

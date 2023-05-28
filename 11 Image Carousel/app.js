@@ -18,14 +18,13 @@ prev.addEventListener('click', () => {
         imagesel.setAttribute("src", `./images/${ index - 1}.jpg`)
     }
     imagesel.classList.add('fadeinout')
-    console.log(index)
 
     setTimeout(() => {
         imagesel.classList.remove('fadeinout');
       }, 1000)
 })
 
-const nextPic = () => {
+function nextPic() {
     const src = imagesel.getAttribute("src")
     let index = Number(src[9])
 
@@ -37,14 +36,15 @@ const nextPic = () => {
     imagesel.classList.add('fadeinout')
         imagesel.setAttribute("src", `./images/${ index + 1}.jpg`)
     }
-    console.log(index)
 
     setTimeout(() => {
         imagesel.classList.remove('fadeinout');
       }, 1000)
 }
 
-next.addEventListener('click', nextPic())
+next.addEventListener('click',() => {
+    nextPic()
+} )
 
 setInterval(() => {
     nextPic()

@@ -38,3 +38,6 @@
 
 13. Tabs Section
 ```URL = https://youtu.be/EWv2jnhZErc```
+
+14. Rotating Image Carousel
+```URL = https://youtu.be/ePzOFu2xXUQ```

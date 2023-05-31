@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+}
+
+.container{
+    margin: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.563);
+    width: 30rem;
+    border-radius: 10px ;
+    gap:3rem;
+
+    .search-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .search--wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .textbar{
+                width: 80%;
+                padding: .5rem 1rem;
+                border: none;
+                border-radius: 5px;
+                margin-right: .7rem;
+                border-bottom: 1px rgba(0, 0, 0, 0) solid;
+
+            &:focus{
+                outline:none;
+                border-bottom: 1px red solid;
+            } }
+
+            .fa-plus{
+                font-size: 24px;
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.468);
+                padding: .3rem; 
+            &:hover{
+                background-color: rgba(0, 255, 0, 0.67);
+            }}
+        }
+
+    }
+
+    .storage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .task{
+            width: 90%;
+            height: 100%;
+            margin: .5rem 5rem;
+            padding: 2px 1rem;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background-color: rgba(0, 0, 0, 0.21);
+
+            .fa-trash{
+                &:hover{
+                    color:rgb(167, 9, 9);
+                    scale:1.4;
+                }
+            }
+            /* &span{
+                width: 100%;
+            } */
+        }
+    }
+}
+
+/* .storage .task span{
+    width: 100%;
+} */

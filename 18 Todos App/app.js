@@ -7,18 +7,30 @@ add.addEventListener('click', () => {
   let data = textBar.value
   if(data === ''){
     textBar.placeholder = "Task can't be empty"
-    return
-  } 
+    return;       }
+
   let newEl = document.createElement('div')
+  // let newtrashIcon = document.createElement('i')
+  // let textData = document.createElement('span')
+
   newEl.classList.add('task')
+  // newtrashIcon.classList.add('fa-solid')
+  // newtrashIcon.classList.add('fa-trash')
+
+  // textData.textContent = data
+
   let htmltext = `<span>${data}</span> <i class="fa-solid fa-trash"></i>`
   newEl.innerHTML = htmltext
+
+  // newEl.appendChild(textData)
+  // newEl.appendChild(newtrashIcon)
   storage.appendChild(newEl)
   textBar.value =''
-
 })
 
 
-trash.addEventListener('click', (e) => {
-  console.log(e)
+trash.forEach(singleTrash => {
+  singleTrash.addEventListener('click', (event) => {
+  event.target.parentNode.remove()
+  })
 })

@@ -19,31 +19,31 @@
 ```URL = https://youtu.be/EWv2jnhZErc?t=13119``` 
 
 07. Sticky Navbar
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=10014```
 
 08. Blowing Bubbles
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=15579```
 
 09. Background Image Scroll Effect
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=24123```
 
 10. Drum Kits
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=25877```
 
 11. Image Carousel
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=30920```
 
 12. Typography
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=36250```
 
 13. Tabs Section
-```URL = https://youtu.be/EWv2jnhZErc```
+```URL = https://youtu.be/EWv2jnhZErc?t=38064```
 
 14. Rotating Image Carousel
-```URL = https://youtu.be/ePzOFu2xXUQ```
+```URL = https://youtu.be/ePzOFu2xXUQ?t=6120```
 
 15. Count Down to New Year
-```URL = https://youtu.be/ePzOFu2xXUQ```
+```URL = https://youtu.be/ePzOFu2xXUQ?t=8677```
 
 16. CountDown to that Date
 ```Done with little change in 15.```
@@ -53,3 +53,6 @@
 
 18. Todos App
 ```Done on own```
+
+19. Github Profiles
+```URL = https://youtu.be/dtKciwk_si4?t=20396```

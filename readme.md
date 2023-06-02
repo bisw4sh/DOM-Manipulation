@@ -56,3 +56,6 @@
 
 19. Github Profiles
 ```URL = https://youtu.be/dtKciwk_si4?t=20396```
+
+20. Toast Notification
+```URL = https://youtu.be/8GPPJpiLqHk?t=546```

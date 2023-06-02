@@ -59,3 +59,6 @@
 
 20. Toast Notification
 ```URL = https://youtu.be/8GPPJpiLqHk?t=546```
+
+21. Zoom In Effect
+```URL= https://youtu.be/8GPPJpiLqHk?t=3093```

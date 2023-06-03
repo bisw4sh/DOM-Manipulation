@@ -62,3 +62,6 @@
 
 21. Zoom In Effect
 ```URL= https://youtu.be/8GPPJpiLqHk?t=3093```
+
+22. Dark Light Mode Toggler
+```URL= https://uiverse.io/Galahhad/happy-warthog-87```

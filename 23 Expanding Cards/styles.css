@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  width: 100%;
+  height: 80vh;
+  margin: auto 4%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  transition: all ease-in 700ms;
+
+  & > *{
+    border-radius: 50px;
+    height: 100%;
+    min-width: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.item1{
+  background:url('https://fastly.picsum.photos/id/40/4106/2806.jpg?hmac=MY3ra98ut044LaWPEKwZowgydHZ_rZZUuOHrc3mL5mI');
+}
+
+.item2{
+  background:url('https://fastly.picsum.photos/id/41/1280/805.jpg?hmac=W9CWeYdlZisqEfhjuODl83T3lCXAqjUZrOe9iMFPYmI');
+}
+
+.item3{
+  background:url('https://fastly.picsum.photos/id/62/2000/1333.jpg?hmac=PbFIn8k0AndjiUwpOJcfHz2h-wPCQi_vJRTJZPdr6kQ');
+}
+
+.item4{
+  background:url('https://fastly.picsum.photos/id/69/4912/3264.jpg?hmac=Q08LW3SoOxPfaE-y8-braexxvm5PESXMCdEDqFbEhQ8');
+}
+.item5{
+  background:url('https://fastly.picsum.photos/id/73/5000/3333.jpg?hmac=Tp-n4qzO5flXetGX76h2Ht1P6PHBQlabJuULUtj6ytw');
+}
+
+.active{
+  transition: all 3s ease-in-out;
+  flex: 20;
+  background-size: cover;
+}

@@ -68,3 +68,6 @@
 
 23. Expanding Cards
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards```
+
+24. Progress Steps
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/progress-steps```

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --blue: #0086fc;
+  --grey: #afafb4;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  height: 30rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cPoints{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .checkpoints{
+    border: 3px solid var(--grey);
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lines{
+    height: 5px;
+    width: 5rem;
+    background-color: var(--grey);
+  }
+
+  .c1{
+    border: 4px solid var(--blue);
+  }
+}
+
+.prev, .next{
+  border: none;
+  margin: auto 1rem;
+  padding: .5rem 2rem;
+  border-radius: 5px;
+}
+
+.buttons .active{
+background-color: var(--blue);
+}
+
+.checkpoints.active{
+  border: 4px solid var(--blue);
+}
+

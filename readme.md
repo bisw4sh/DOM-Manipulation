@@ -72,5 +72,8 @@
 24. Progress Steps
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/progress-steps```
 
-35. Rotating Navigation
+25. Rotating Navigation
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/rotating-nav-animation```
+
+26. Blurry Loading 
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/blurry-loading``` ```_no javascript required_ unlike on link```

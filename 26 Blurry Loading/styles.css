@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: black;
+}
+
+.wrapper{
+  height: 100vh;
+  width: 100%;
+  background: url("https://fastly.picsum.photos/id/85/1280/774.jpg?hmac=h_HHpvfhMmLP6uOSrHS7HSlXVRuMKfBbc8HFKd1Acv4") no-repeat fixed center;
+  backdrop-filter: blur(500px);
+}
+
+.blur {
+  background: rgba(7, 7, 7, 0.2); 
+  height: 100%;
+  width: 100%;
+  animation: dBlur 2s linear;
+}
+
+@keyframes dBlur{
+  from{
+    backdrop-filter: blur(10px);
+  }
+  to{
+    backdrop-filter: blur(0);
+  }
+}

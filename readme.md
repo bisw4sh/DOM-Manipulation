@@ -98,3 +98,6 @@
 
 33. Incrementing Counter
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/incrementing-counter```
+
+34. Drink Water
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/drink-water```

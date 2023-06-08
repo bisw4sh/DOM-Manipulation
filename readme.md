@@ -89,3 +89,6 @@
 
 30. Event KeyCodes
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/event-keycodes```
+
+31. Collapsing FAQ
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/faq-collapse```

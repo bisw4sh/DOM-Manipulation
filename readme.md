@@ -80,3 +80,6 @@
 
 27. Scroll Animation
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/scroll-animation```
+
+28. Split Landing Page
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/split-landing-page```

@@ -77,3 +77,6 @@
 
 26. Blurry Loading 
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/blurry-loading```  __no javascript required__ unlike on link
+
+27. Scroll Animation
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/scroll-animation```

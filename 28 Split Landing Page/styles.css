@@ -49,18 +49,13 @@ body{
 .madara img{
   height: 8rem;
   user-select: none;
-
-  &:hover{
-    filter: drop-shadow(5px 5px 1px #ce4942);
-  }
+  pointer-events: none;
+  filter: drop-shadow(5px 5px 1px #ce4942);
 }
 
 .hashirama img{
   height: 4rem;
   user-select: none;
-
-  &:hover{
-    filter: drop-shadow(5px 5px 1px #0c8b5b);
-  }
-
+  pointer-events: none;
+  filter: drop-shadow(5px 5px 1px #0c8b5b);
 }

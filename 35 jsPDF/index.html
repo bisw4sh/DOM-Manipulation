@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generate PDFs</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <button>
+    Download PDF
+  </button>
+
+
+<script>
+const { jsPDF } = jspdf
+
+// Default export is a4 paper, portrait, using millimeters for units
+const doc = new jsPDF({
+  orientation: "landscape",
+  unit: "in",
+  format: 'a4'
+})
+
+const img = new Image()
+
+img.src = './HBA.png'
+
+doc.addImage(img,"png", 0, 0, 8.3, 11.8)
+
+document.querySelector('button').addEventListener('click', () => {
+  doc.save('HBA.pdf')
+})
+</script>
+</body>
+</html>

@@ -95,3 +95,6 @@
 
 32. Animated Navigation
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/animated-navigation```
+
+33. Incrementing Counter
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/incrementing-counter```

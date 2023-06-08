@@ -94,4 +94,4 @@
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/faq-collapse```
 
 32. Animated Navigation
-```URL = ects50days/tree/master/animated-navigation```
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/animated-navigation```

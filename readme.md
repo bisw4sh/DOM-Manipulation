@@ -86,3 +86,6 @@
 
 29. Form Input Wave
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/form-input-wave```
+
+30. Event KeyCodes
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/event-keycodes```

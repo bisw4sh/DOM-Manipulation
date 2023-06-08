@@ -83,3 +83,6 @@
 
 28. Split Landing Page
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/split-landing-page```
+
+29. Form Input Wave
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/form-input-wave```

@@ -1,4 +1,4 @@
-###Every folder are separate projects on their own.
+### Every folder are separate projects on their own.
 
 01. Quote Generator
  ```URL = https://youtu.be/5fb2aPlgoys?t=4312```

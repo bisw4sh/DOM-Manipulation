@@ -107,3 +107,6 @@
 
 36. Movie App
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/movie-app```
+
+37. Background Slider
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/background-slider```

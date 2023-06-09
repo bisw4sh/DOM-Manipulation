@@ -113,3 +113,8 @@
 
 38. Button Ripple Effect
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/button-ripple-effect```
+
+39. Dragging Cookie Game
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/drag-n-drop```
+```URL = https://www.youtube.com/watch?v=4AHot187Lj0&ab_channel=EasyTutorials```
+```To get the cookie, drop the items in consecutive order of containers with one for each```

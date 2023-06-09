@@ -104,3 +104,6 @@
 
 35. jsPDF
 ```URl = https://github.com/parallax/jsPDF```
+
+36. Movie App
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/movie-app```

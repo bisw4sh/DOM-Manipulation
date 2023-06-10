@@ -121,3 +121,6 @@
 
 40. Canvas
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/drawing-app```
+
+41. Kinetic Loader
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/kinetic-loader```

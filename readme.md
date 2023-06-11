@@ -130,3 +130,6 @@
 
 43. Double Vertical Slider
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/double-vertical-slider```
+
+44. Double Click Heart
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/double-click-heart```

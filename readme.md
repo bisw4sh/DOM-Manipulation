@@ -124,3 +124,6 @@
 
 41. Kinetic Loader
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/kinetic-loader```
+
+42. Stickey Navbar
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/sticky-navigation```

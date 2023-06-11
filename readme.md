@@ -136,3 +136,6 @@
 
 45. Auto Text Effect
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/auto-text-effect```
+
+46. Random Password Generator
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/password-generator```

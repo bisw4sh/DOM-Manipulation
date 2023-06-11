@@ -127,3 +127,6 @@
 
 42. Stickey Navbar
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/sticky-navigation```
+
+43. Double Vertical Slider
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/double-vertical-slider```

@@ -133,3 +133,6 @@
 
 44. Double Click Heart
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/double-click-heart```
+
+45. Auto Text Effect
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/auto-text-effect```

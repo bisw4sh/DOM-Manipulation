@@ -145,3 +145,6 @@
 
 48. 2 of 3 Toggle Active v2
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/good-cheap-fast```
+
+49. Notes App
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/notes-app```

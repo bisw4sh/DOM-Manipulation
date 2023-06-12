@@ -11,6 +11,7 @@ body{
   height: 100vh;
   background-color: #7bdaf3;
   width: 100%;
+  
 }
 
 .header{
@@ -26,6 +27,15 @@ body{
     padding: .25rem .8rem;
     margin: 1rem;
     cursor: pointer;
+  }
+}
+
+.fa-solid, .fa-sharp{
+  &:hover{
+    color: grey;
+  }
+  &:active{
+    color: red;
   }
 }
 

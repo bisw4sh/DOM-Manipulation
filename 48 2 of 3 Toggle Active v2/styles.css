@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle{
+  visibility: hidden;
+}
+
+.label{
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: pink;
+  border: 2px solid steelblue;
+  cursor: pointer;
+  margin: 0 15px 0;
+  display: flex;
+  align-items: center;
+
+  .ball{
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: rgb(0, 229, 255);
+    animation: slideOff .2s linear;
+  }
+}
+
+.toggle:checked + .label{
+  background-color: blueviolet;
+}
+
+.toggle:checked +.label .ball{
+  transform: translateX(39px);
+  animation: slideOn .2s linear;
+  background-color: rgb(0, 157, 255);
+}
+
+@keyframes slideOn {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translate(39px);
+  }
+}
+
+@keyframes slideOff {
+  0%{
+    transform: translateX(39px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+}

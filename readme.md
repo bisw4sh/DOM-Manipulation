@@ -140,5 +140,8 @@
 46. Random Password Generator
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/password-generator```
 
-47. 2/3 toggle active at a time
+47. 2 of 3 Toggle Active v1
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/good-cheap-fast```
+
+48. 2 of 3 Toggle Active v2
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/good-cheap-fast```

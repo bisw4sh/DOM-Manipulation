@@ -153,3 +153,6 @@
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/animated-countdown```
 
 51. Dice Roll
+
+52. Hoverboard
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/hoverboard```

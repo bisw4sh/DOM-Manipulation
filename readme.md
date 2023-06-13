@@ -159,3 +159,6 @@
 
 53. Mobile Tab Navigation
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/mobile-tab-navigation```
+
+54. 3D Boxes Background
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/3d-boxes-background```

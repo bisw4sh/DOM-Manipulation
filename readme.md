@@ -156,3 +156,6 @@
 
 52. Hoverboard
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/hoverboard```
+
+53. Mobile Tab Navigation
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/mobile-tab-navigation```

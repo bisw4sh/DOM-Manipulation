@@ -165,3 +165,6 @@
 
 55. Customer Feedback UI
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/feedback-ui-design```
+
+56. Live User Filter
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/live-user-filter```

@@ -177,3 +177,6 @@
 
 59. Quiz App
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/quiz-app```
+
+60. Testimonial Box Switcher
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/testimonial-box-switcher```

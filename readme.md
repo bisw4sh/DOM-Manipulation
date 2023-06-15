@@ -174,3 +174,6 @@
 
 58. Netflix Nav
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/netflix-mobile-navigation```
+
+59. Quiz App
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/quiz-app```

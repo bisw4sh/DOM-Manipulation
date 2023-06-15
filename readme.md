@@ -171,3 +171,6 @@
 
 57. Custom Range Slider
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/custom-range-slider```
+
+58. Netflix Nav
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/netflix-mobile-navigation```

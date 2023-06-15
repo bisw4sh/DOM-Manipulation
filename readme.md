@@ -168,3 +168,6 @@
 
 56. Live User Filter
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/live-user-filter```
+
+57. Custom Range Slider
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/custom-range-slider```

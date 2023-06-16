@@ -183,3 +183,6 @@
 
 61. Random Image Feed
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/random-image-generator```
+
+62. Catch Insect Game
+```URL = https://github.com/bradtraversy/50projects50days/tree/master/insect-catch-game```

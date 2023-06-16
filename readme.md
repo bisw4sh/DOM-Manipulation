@@ -189,3 +189,6 @@
 
 63. PDF Parser
 ```URL = https://github.com/dcode-youtube/extract-text-from-pdf-js/tree/main```
+
+64. Flex Gallery
+```URL = https://github.com/wesbos/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery```

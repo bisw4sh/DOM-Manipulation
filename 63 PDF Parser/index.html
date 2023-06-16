@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="wrapper">
+  <label id="inputFile" class="inputFile"> 
+    Select PDF
+    <input type="file">
+  </label>
+  <button type="button" id="btnUpload">Upload</button>
+  <textarea name="" id="resultText" class="resultText" placeholder="Text will render here"></textarea>
+</div>
+
+<script>
+  const inputFile = document.querySelector(".inputFile input");
+  const btnUpload = document.getElementById("btnUpload");
+  const resultText = document.getElementById("resultText");
+
+  btnUpload.addEventListener("click", () => {
+      const formData = new FormData()
+
+      formData.append("pdfFile", inputFile.files[0])
+
+      fetch("/extract-text", {
+          method: "post",
+          body: formData
+      }).then(response => {
+          return response.text()
+      }).then(extractedText => {
+          resultText.value = extractedText.trim()
+      })
+  })
+</script>
+  
+</body>
+</html>
+

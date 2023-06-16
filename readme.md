@@ -186,3 +186,6 @@
 
 62. Catch Insect Game
 ```URL = https://github.com/bradtraversy/50projects50days/tree/master/insect-catch-game```
+
+63. PDF Parser
+```URL = https://github.com/dcode-youtube/extract-text-from-pdf-js/tree/main```

@@ -192,3 +192,6 @@
 
 64. Flex Gallery
 ```URL = https://github.com/wesbos/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery```
+
+65. Speech Detection
+```URL = https://github.com/wesbos/JavaScript30/tree/master/20%20-%20Speech%20Detection```
